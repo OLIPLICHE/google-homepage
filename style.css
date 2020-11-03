@@ -1,0 +1,70 @@
+
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #151414;
+}
+
+
+li a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+
+li {
+    float: left;
+}
+
+li a:hover {
+    background-color:#3E403F;
+}
+
+div{
+  display: block;
+}
+
+
+.google{
+  position: absolute;
+  top: 200px;
+  left: 816px;
+  }
+
+ .container{
+position: relative;
+}
+
+.btn-left{
+  position: absolute;
+  border-left-style: solid;
+margin-top: 3px;
+display: inline-block;
+top: 330px;
+left: 862px;
+padding-left: 0;
+
+}
+
+.btn-right{
+position: absolute;
+margin-top: 3px;
+border-left-style: solid;
+display: inline-block;
+top: 330px;
+left: 960px;
+padding-right: 0;
+padding-left: 8px;
+margin-left: 5px;
+}
+
+.search{
+position: absolute;
+left: 862px;
+top: 300px;
+
+}
